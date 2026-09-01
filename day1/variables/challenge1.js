@@ -1,0 +1,10 @@
+let Pseudo = "ShadowX";
+let Niveau = 12;
+let Age = 21;
+let score = 4580;
+let pays = "Maroc";
+console.log(Pseudo);
+console.log(Niveau);
+console.log(Age);
+console.log(score);
+console.log(pays);
