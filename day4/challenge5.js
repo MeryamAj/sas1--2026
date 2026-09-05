@@ -4,7 +4,7 @@ function estPalindrome(chaine)
 {
     let i = 0;
     let last = chaine.length - 1;
-    while(chaine[i] = chaine[last])
+    while(i <= last)
     {
         if(chaine[i] == chaine[last])
         {
