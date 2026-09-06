@@ -2,14 +2,17 @@
 
 function contientElement(tab, valeur)
 {
-    if(tab.includes(valeur))
+    let i = 0;
+    while(i < tab.length )
     {
-        return true;
+        if(tab[i] === valeur)
+        {
+            return true
+        }
+        i++;
     }
-    else
-    {
-        return false;
-    }
+    return false;
+    
 }
 
 let arr = ["pomme", "banane"];
