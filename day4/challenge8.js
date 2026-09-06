@@ -3,7 +3,14 @@ let prompt = require("prompt-sync")();
 
 function extraireChaine(chaine, debut, fin)
 {
-    let result = chaine.slice(0,4);
+    let result = "";
+    let i = debut;
+    let end = fin;
+    while(i < end)
+    {
+        result +=chaine[i]
+        i++;
+    }
     return result;
     
 }
