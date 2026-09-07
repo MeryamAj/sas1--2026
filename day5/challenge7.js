@@ -5,13 +5,14 @@ function filtrerPairs(tab)
 {
     let arr = [];
     let i = 0;
-    let res = 0;
+    let j = 0;
+    
     while(i < tab.length)
     {
         if(tab[i] % 2 == 0)
-        {
-            res = (tab[i]);
-            arr += res
+        {    
+           arr[j] = tab[i];
+           j++;
         }
         i++;
     }
